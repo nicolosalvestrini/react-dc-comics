@@ -1,4 +1,4 @@
-import  Footer  from "./components/Footer";
+import  FooterUp  from "./components/Footer-up";
 import  Main  from "./components/Main";
 import  Header  from "./components/Header";
 import { useState } from "react"
@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <Main />
-      <Footer />
+      <FooterUp />
      
     </>
   )
