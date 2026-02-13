@@ -6,7 +6,7 @@ export default function Header() {
         <img src={logo} alt="dc comics logo" className="logo-dc" />
 
         <nav>
-          <ul className="nav">
+          <ul className="nav style">
             <li className="nav-item">
               <a className="nav-link text-dark" href="#">
                 CHARACTERS

@@ -7,11 +7,13 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-ul {
+.style {
   list-style-type: none;
   display: flex;
   font-weight: bold
 }
+
+
 
 li{
   padding: 0 0.5rem;
@@ -36,4 +38,23 @@ a:hover {
   width: 3.4rem; 
   height: auto; 
 
+}
+
+.backround {
+  background-image: url('/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-dc {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  max-width: 200px; /* dimensione logo */
+  z-index: 1;
 }
