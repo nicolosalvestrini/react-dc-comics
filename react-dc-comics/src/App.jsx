@@ -1,7 +1,7 @@
-import  FooterUp  from "./components/Footer-up";
-import  Main  from "./components/Main";
+import  MainDown  from "./components/Main-down";
+import  MainUP  from "./components/Main-up";
 import  Header  from "./components/Header";
-import  FooterDown  from "./components/Footer-down";
+import  FooterUP  from "./components/Footer-up";
 import { useState } from "react"
 
 
@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
-      <FooterUp />
-      <FooterDown />
+      <MainUP />
+      <MainDown />
+      <FooterUP />
      
     </>
   )

@@ -1,4 +1,4 @@
-export default function Main () {
+export default function MainUp () {
     return(
         <main className="bg-dark">
             <div className="container py-4">

@@ -1,64 +1,161 @@
-import digital from "../assets/img/buy-comics-digital-comics.png";
-import merchandaise from "../assets/img/buy-comics-merchandise.png";
-import locator from "../assets/img/buy-comics-shop-locator.png";
-import subscriptions from "../assets/img/buy-comics-subscriptions.png";
-import visa from "../assets/img/buy-dc-power-visa.svg";
+
 export default function FooterUp() {
   return (
-    <footer className="bg-primary">
-      <div className="container py-3">
-        <section className="row d-flex justify-content-between align-items-center">
-          <a
-            href="#"
-            className="col-2 text-white text-decoration-none d-flex align-items-center"
-          >
-            <img
-              src={digital}
-              alt="buy-comics-digital-comics"
-              className="dimension pe-2"
-            />
-            DIGITAL COMICS
-          </a>
+    <footer className="backround logo-bg overflow-hidden">
+      <div className="container d-flex justify-content-start position-relative">
+        <img src="/dc-logo-bg.png" alt="" className="backround-logo"/>
+        <section className="pt-5 pb-5">
+          <ul className="list-unstyled">
+            <li>
+              <h3 className="text-white pb-2">DC COMICS</h3>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Characters
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Comics
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Movies
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                TV
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Games
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Videos
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                News
+              </a>
+            </li>
+          </ul>
 
-          <a
-            href="#"
-            className="col-2 text-white text-decoration-none d-flex align-items-center "
-          >
-            <img
-              src={merchandaise}
-              alt="buy-comics-merchandise"
-              className="dimension pe-2"
-            />
-            MERCHANDISE
-          </a>
+          <ul className="pt-2 list-unstyled">
+            <li>
+              <h3 className="text-white pb-2">SHOP</h3>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Shop DC
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Shop DC Collectbles
+              </a>
+            </li>
+          </ul>
+        </section>
 
-          <a
-            href="#"
-            className="col-2 text-white text-decoration-none d-flex align-items-center"
-          >
-            <img src={locator} alt="buy-comics-shop-locator" className="dimension pe-2" />
-            SHOP LOCATOR
-          </a>
-
-          <a
-            href="#"
-            className="col-2 text-white text-decoration-none d-flex align-items-center"
-          >
-            <img
-              src={subscriptions}
-              alt="buy-comics-subscriptions"
-              className="dimension pe-2"
-            />
-            SUBSCRIPTIONS
-          </a>
-
-          <a
-            href="#"
-            className="col-2 text-white text-decoration-none d-flex align-items-center"
-          >
-            <img src={visa} alt="buy-dc-power-visa" className="dimension pe-2" />
-            DC POWER VISA
-          </a>
+        <section className="pt-5 pb-5 ps-5">
+          <ul className="list-unstyled">
+            <li>
+              <h3 className="text-white pb-2">DC</h3>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Terms Of Use
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Ad Choices
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Advertising
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Jobs
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Subscriptions
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Talent Workshop
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                CPSC Certificates
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Ratings
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Shop Help
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section className="pt-5 pb-5 ps-5">
+          <ul className="list-unstyled">
+            <li>
+              <h3 className="text-white pb-2">SITES</h3>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                DC
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                MAD Magazine
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                DC Kids
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                DC Universe
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-secondary text-decoration-none">
+                DC Power Visa
+              </a>
+            </li>
+          </ul>
         </section>
       </div>
     </footer>
