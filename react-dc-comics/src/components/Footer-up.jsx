@@ -5,8 +5,7 @@ export default function FooterUp(props) {
     <footer className="backround logo-bg overflow-hidden">
       <div className="container d-flex justify-content-start position-relative">
         <img src="/dc-logo-bg.png" alt="" className="backround-logo"/>
-        <FooterLink 
-        navbarItems= {navbarItems}/>
+        <FooterLink />
       </div>
     </footer>
   );

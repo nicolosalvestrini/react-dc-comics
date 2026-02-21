@@ -5,7 +5,8 @@ export default function Header() {
     <header className="container">
       <div className="d-flex align-items-center py-2 justify-content-between">
         <img src={logo} alt="dc comics logo" className="logo-dc" />
-        <Navbar />
+        <Navbar 
+        navbarItems= {navbarItems}/>
       </div>
     </header>
   );

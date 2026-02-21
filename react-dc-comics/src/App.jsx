@@ -175,12 +175,12 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header 
+      navbarItems = {navbarItems}/>
       <MainUP 
       cardComics = {comics}/>
       <MainDown />
-      <FooterUP 
-      navbarItems = {navbarItems}/>
+      <FooterUP />
       <FooterDown />
      
     </>
