@@ -1,6 +1,7 @@
 import jumbotron from "../assets/img/jumbotron.jpg";
-import FumettiCards from "../components/components-children/Fumetti.jsx";
-export default function MainUp() {
+import CardProdotti from "../components/components-children/CardProdotti.jsx";
+export default function MainUp(props) {
+  const {cardComics} = props
   return (
     <main className="bg-dark">
         <img
@@ -12,7 +13,8 @@ export default function MainUp() {
         <h3 className="badge-title">CURRENT SERIES</h3>
       </div>
       <div className="container py-5">
-      <FumettiCards />
+      <CardProdotti 
+      fumetto = {cardComics} />
       <button className="button d-block mx-auto">
         LOAD MORE
       </button>
