@@ -10,18 +10,19 @@ const navbarItems = [
   { label: "NEWS", href: "#", active: false },
   { label: "SHOP", href: "#", active: false },
 ];
-
-export default function Navbar() {
+import NavbarLink from "./components-children/NavbarLink.jsx";
+export default function Navbar(props) {
+  const {navbarItems} = props
   return (
     <nav>
       <ul className="nav style">
         {navbarItems.map((item, index) => {
           return(
-            <li className="nav-item" key={index}>
-            <a className={`nav-link text-dark ${item.active ? 'active ' : ''}`} href={item.href}>
-              {item.label}
-            </a>
-          </li>
+            <NavbarLink 
+            link= {item.href}
+            name= {item.label}
+            id= {index}/>
+          
           )
         })}
       </ul>
