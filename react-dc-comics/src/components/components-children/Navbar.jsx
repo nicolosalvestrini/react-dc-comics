@@ -1,5 +1,5 @@
 
-import NavbarLink from "./components-children/NavbarLink.jsx";
+import NavbarLink from "./NavbarLink.jsx";
 export default function Navbar(props) {
   const {navbarItems} = props
   return (
