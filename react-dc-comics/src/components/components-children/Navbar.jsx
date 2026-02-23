@@ -6,7 +6,7 @@ export default function Navbar({ navbarItems }) {
       <ul className="nav style">
         {navbarItems.map((item) => (
           <NavbarLink
-            key={item.label}
+            key={item.id}
             link={item.href}
             name={item.label}
             active={item.active}

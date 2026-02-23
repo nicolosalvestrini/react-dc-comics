@@ -160,16 +160,16 @@ const comics = [
 ];
 
 const navbarItems = [
-  { label: "CHARACTERS", href: "#", active: false },
-  { label: "COMICS", href: "#", active: true },
-  { label: "MOVIES", href: "#", active: false },
-  { label: "TV", href: "#", active: false },
-  { label: "GAMES", href: "#", active: false },
-  { label: "COLLECTIBLES", href: "#", active: false },
-  { label: "VIDEOS", href: "#", active: false, extraClass: "mx-2" },
-  { label: "FANS", href: "#", active: false },
-  { label: "NEWS", href: "#", active: false },
-  { label: "SHOP", href: "#", active: false },
+  { id: 1, label: "CHARACTERS", href: "#", active: false },
+  { id: 2, label: "COMICS", href: "#", active: true },
+  { id: 3, label: "MOVIES", href: "#", active: false },
+  { id: 4, label: "TV", href: "#", active: false },
+  { id: 5, label: "GAMES", href: "#", active: false },
+  { id: 6, label: "COLLECTIBLES", href: "#", active: false },
+  { id: 7, label: "VIDEOS", href: "#", active: false, extraClass: "mx-2" },
+  { id: 8, label: "FANS", href: "#", active: false },
+  { id: 9, label: "NEWS", href: "#", active: false },
+  { id: 10, label: "SHOP", href: "#", active: false },
 ];
 function App() {
 
